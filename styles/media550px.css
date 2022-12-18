@@ -1,0 +1,80 @@
+@media (max-width: 550px) {
+  :root {
+    font-size: 12px;
+  }
+
+  #home .container .left,
+  .right,
+  #explore .container .left,
+  .right {
+    width: 85%;
+  }
+  #home .left {
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #home .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #home .left > * {
+    text-align: center;
+  }
+  #home .container,
+  #explore .container {
+    padding: 150px 0 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #sponsors .sponsor-cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #sponsors .sponsor-cards img {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  #about .container .about-box {
+    justify-content: center;
+  }
+  #about .container .about-box .card-item {
+    width: 90%;
+  }
+  #explore {
+    padding: 0;
+  }
+
+  #explore .container .left {
+    align-items: center;
+  }
+  #explore .container .left > * {
+    text-align: center;
+  }
+  #explore .bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #explore .bottom .card-item{
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  #pages .container .left {
+    width: 90%;
+  }
+  #pages .bottom {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #pages .container .bottom .right {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 90%;
+  }
+  #pages .container .bottom .right .card-item {
+    width: 90%;
+  }
+}

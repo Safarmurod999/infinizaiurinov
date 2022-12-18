@@ -1,0 +1,45 @@
+#sponsors {
+  background-color: #fdd04a;
+}
+#sponsors .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 15px;
+}
+#sponsors .container .text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#sponsors h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222730;
+}
+#sponsors .text-box img{
+  margin-bottom: 29px;
+}
+#sponsors .sponsor-cards img {
+  width: 14%;
+}
+#sponsors p {
+  text-align: center;
+  font-size: 1rem;
+  width: 43.6%;
+  margin-bottom: 41px;
+}
+#sponsors .sponsor-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

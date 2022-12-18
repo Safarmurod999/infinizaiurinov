@@ -1,0 +1,57 @@
+@media (max-width: 1140px) {
+    :root{
+        font-size: 14px;
+    }
+  .nav-menus {
+    /* display: none; */
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .btn-group {
+    flex-direction: column-reverse;
+  }
+  #mode-btn {
+    position: absolute;
+    top: 27px;
+    right: 110px;
+  }
+  .nav-list {
+    text-align: center;
+    flex-direction: column;
+  }
+  .nav-list a {
+    display: inline-block;
+    font-size: 1.875rem;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .toggle-btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+  .close-btn {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+  }
+  .btn-group button:first-child {
+    width: 35px;
+    height: 35px;
+  }
+  .btn-group button:last-child {
+    padding: 10px 21px;
+    border: 1px solid #fff;
+  }
+  #explore .card-item {
+    height: 532px;
+  }
+}

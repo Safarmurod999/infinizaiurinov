@@ -1,0 +1,75 @@
+#about {
+  background-image: url("../images/about-bg.svg");
+  padding: 136px 0 130px;
+}
+#about .text-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#about .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about .text-box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+}
+#about .text-box h1 {
+  width: 54.2%;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+#about #lorem {
+  width: 64.3%;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(223, 223, 223, 0.8);
+}
+#about .about-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-box .card-item {
+  padding: 36px 38px;
+  width: 48.6%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  margin-bottom: 32px;  
+}
+.about-box .card-item h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.about-box .card-item p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+}

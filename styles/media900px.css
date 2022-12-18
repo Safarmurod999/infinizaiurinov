@@ -1,0 +1,85 @@
+@media (max-width: 900px) {
+  :root {
+    font-size: 12px;
+  }
+
+  #home .container .left,
+  .right,
+  #explore .container .left,
+  .right {
+    width: 65%;
+  }
+  #home .left {
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #home .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #home .left > * {
+    text-align: center;
+  }
+  #home .container,
+  #explore .container {
+    padding: 150px 0 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #pages .container .top > *{
+    text-align: center;
+  }
+  #pages .container .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #pages .container .top h1{
+    margin-bottom: 30px;
+  }
+  #sponsors .sponsor-cards {
+    flex-wrap: wrap;
+  }
+  #sponsors .sponsor-cards img {
+    width: 47%;
+    margin-bottom: 30px;
+  }
+  #about .container .about-box {
+    justify-content: center;
+  }
+  #about .container .about-box .card-item {
+    width: 90%;
+  }
+  #explore .container .right {
+    width: 70%;
+}
+  #explore {
+    padding: 0;
+  }
+  #explore .container .left {
+    align-items: center;
+  }
+  #explore .container .left > * {
+    text-align: center;
+  }
+  #pages .container .left {
+    width: 90%;
+  }
+  #pages .bottom {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #pages .container .bottom .right{
+    margin: 0;
+     width: 90%;
+  }
+  #pages .card-item {
+    width: 47%;
+  }
+  #subscribe .header{
+    width: 75%;
+  }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 1349px) {
+  :root{
+    font-size: 15px;
+  }
+  .container {
+    width: 100%;
+  }
+  
+}
